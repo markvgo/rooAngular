@@ -1,0 +1,11 @@
+/* line 10, create.scss */
+left {
+  float: left;
+  width: 100px;
+}
+
+/* line 16, create.scss */
+right {
+  float: right;
+  width: 100px;
+}

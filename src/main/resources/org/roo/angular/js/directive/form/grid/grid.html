@@ -1,0 +1,17 @@
+<div>
+    <table ng-table class="table">
+        <thead >
+
+            <td ng-repeat="title in columnTitles">{{title}}</td>
+
+        </thead>
+        <tbody>
+            <tr ng-repeat="gridItem in gridData" >
+
+                <td ng-repeat="column in columnFields">{{gridItem[column]}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,13 @@
+<div class="ra-field-block">
+     <div class="ra-field-label">
+        <label >
+            <span>{{label}}</span>
+        </label>
+    </div>
+    <input ng-model=name id={{id}} name={{name}} type={{type}} ngModelOptions="{ updateOn: 'default blur', debounce: {'default': 0, 'blur': 0} }" ng-required="test" />
+    <div ng-messages="form.name.$error">
+        <div ng-message="required">You did not enter a field</div>
+        <div ng-message="minlength">Your field is too short</div>
+        <div ng-message="maxlength">Your field is too long</div>
+    </div>
+</div>

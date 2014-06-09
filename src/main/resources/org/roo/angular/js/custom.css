@@ -1,0 +1,44 @@
+/* line 1, custom.scss */
+.spacer {
+  margin-top: 40px;
+  /* define margin as you see fit */
+}
+
+/* line 5, custom.scss */
+.spacer40 {
+  margin-top: 40px;
+  /* define margin as you see fit */
+}
+
+/* line 10, custom.scss */
+.spacer20 {
+  margin-top: 20px;
+  /* define margin as you see fit */
+}
+
+/* line 14, custom.scss */
+div.left {
+  float: left;
+  width: 50%;
+}
+
+/* line 19, custom.scss */
+div.right {
+  float: right;
+  width: 50%;
+}
+
+/* line 24, custom.scss */
+input.ng-invalid.ng-dirty {
+  background-color: #FA787E;
+}
+
+/* line 28, custom.scss */
+input.ng-valid.ng-dirty {
+  background-color: #78FA89;
+}
+
+/* line 32, custom.scss */
+input.ng-invalid {
+  background-color: #4b39fa;
+}

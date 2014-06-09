@@ -1,0 +1,39 @@
+.ra-view {
+    clear: both;
+    overflow: hidden;
+    width:800px;
+    min-width: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#wrapper {
+    width:800px;
+    min-width: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* fix max-width incompatibility in IE6 */
+    width:expression(document.body.clientWidth > 800? "800px": "auto" );
+    clear: both;
+    overflow:hidden;
+    display:block;
+}
+
+a img {
+    /*border: 0 none;*/
+    /*vertical-align: middle;*/
+    width:800px;
+    min-width: 800px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* fix max-width incompatibility in IE6 */
+    width:expression(document.body.clientWidth > 800? "800px": "auto" );
+
+    overflow:hidden;
+    display:block;
+}
